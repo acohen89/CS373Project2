@@ -1,15 +1,16 @@
 #include "centerGate.h"
 
 CenterGate::CenterGate(char initState){
-    if(initState = 'L'){
+    if(initState == 'L'){
         state = 'L';
-    } else if( initState = 'R'){
+    } else if( initState == 'R'){
         state = 'R';
-    } else if (initState = 'C'){
+    } else if (initState == 'C'){
         state = 'C';
     } else {
         cout << "Error initialzing state" << endl; 
     }
+    cout << state << " INit " << endl; 
 }
 
 void CenterGate::toggle(char marble){

@@ -1,9 +1,9 @@
 #include "gate.h"
 
 Gate::Gate(char initState){
-    if(initState = 'L'){
+    if(initState == 'L'){
         state = 'L';
-    } else if( initState = 'R'){
+    } else if( initState == 'R'){
         state = 'R';
     } else {
         cout << "Error initialzing state" << endl; 
